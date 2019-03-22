@@ -90,11 +90,11 @@ opacity:0;
 	display: block;
 	text-decoration: none;
 }
- .dropDownMenu > a:nth-child(3):hover { background: #F8A248; }
+ .dropDownMenu > li:nth-child(3)>a:hover { background: #F8A248; }
 /*.dropDownMenu a:hover {
-	background: #000;
-}
-*/
+	background: #cccccc;
+}*/
+
 
 /* Level 1 Drop Down Menu */
 .dropDownMenu > li {
