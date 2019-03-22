@@ -99,7 +99,7 @@ opacity:0;
 .dropDownMenu > li {
 	display: inline-block;
 	vertical-align: top;
-	margin-left: -4px; /* solve the 4 pixels spacing between list-items */
+	margin-left: -12px; /* solve the 4->12 pixels spacing between list-items */
 }
 .dropDownMenu > li:first-child {
 	margin-left: 0;
