@@ -90,16 +90,17 @@ opacity:0;
 	display: block;
 	text-decoration: none;
 }
-.dropDownMenu a:hover {
+ .dropDownMenu > a:nth-child(3):hover { background: #F8A248; }
+/*.dropDownMenu a:hover {
 	background: #000;
 }
-
+*/
 
 /* Level 1 Drop Down Menu */
 .dropDownMenu > li {
 	display: inline-block;
 	vertical-align: top;
-	margin-left: -12px; /* solve the 4->12 pixels spacing between list-items */
+	margin-left: -4px; /* solve the 4 pixels spacing between list-items */
 }
 .dropDownMenu > li:first-child {
 	margin-left: 0;
