@@ -135,7 +135,9 @@ opacity:0;
 	display: block;
 }
 .dropDownMenu ul li a {}
-.dropDownMenu ul li a:hover {}
+.dropDownMenu ul li a:hover {
+color:#F8A248;
+}
 /* Level 3 */
 .dropDownMenu > li > ul > li > ul {
 	text-align: left;
