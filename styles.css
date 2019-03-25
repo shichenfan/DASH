@@ -93,18 +93,12 @@ opacity:0;
 .dropDownMenu a {
 	padding: 10px 20px;
 	display: block;
-	/*width:100px;*/
 	text-decoration: none;
 }
- .dropDownMenu > li:nth-child(3)>a:hover { color:#2D716E; background: #CA7822; } /* Darker than #F8A248 first menu */
- .dropDownMenu > li:nth-child(4)>a:hover { color:#F8A248; background: #1E4D4A; } /* Darker than #2d716e first menu */
- .dropDownMenu > li:nth-child(5)>a:hover { color:#2D716E; background: #CA7822; } /* Darker than #F8A248 Third menu */
- .dropDownMenu > li:nth-child(6)>a:hover { color:#F8A248; background: #1E4D4A; } /* Darker than #2d716e first menu */
-
-/*.dropDownMenu a:hover {
-	background: #cccccc;
-}*/
-
+ .dropDownMenu > li:nth-child(3)>a:hover { background: #e4781e; } /* Darker than #F8A248 first menu  */
+ .dropDownMenu > li:nth-child(4)>a:hover { background: #1a7874; } /* Darker than #2d716e second menu */
+ .dropDownMenu > li:nth-child(5)>a:hover { background: #e4781e; } /* Darker than #F8A248 Third menu  */
+ .dropDownMenu > li:nth-child(6)>a:hover { background: #1a7874; } /* Darker than #2d716e Fourth menu */
 
 /* Level 1 Drop Down Menu */
 .dropDownMenu > li {
@@ -137,8 +131,7 @@ opacity:0;
 
 .dropDownMenu > li:hover > ul {
 	display: block;
-	color:#F8A248;
-
+	/* color:#F8A248; */ 
 }
 /*
 .dropDownMenu > li:nth-child(3):hover > ul {
@@ -146,30 +139,29 @@ opacity:0;
 	color:#2D716E;
 
 }
-
 .dropDownMenu > li:nth-child(5):hover > ul {
 	display: block;
 	color:#2D716E;
 
 }*/
 .dropDownMenu li:nth-child(3) a:hover {
-  color: #CA7822;
+  color: #e4781e;
 }
 .dropDownMenu li:nth-child(4) a:hover {
-  color: #1E4D4A;
+  color: #1a7874;
 }
 .dropDownMenu li:nth-child(5) a:hover {
-  color: #CA7822;
+  color: #e4781e;
 }
 .dropDownMenu li:nth-child(6) a:hover {
-  color: #1E4D4A;
+  color: #1a7874;
 }
 
 
 
 .dropDownMenu ul li a {}
 .dropDownMenu ul li a:hover {
-color:#2D716E;
+/*color:#2D716E; */
 }
 
 /*.dropDownMenu ul li:nth-child(3) a:hover {
@@ -194,7 +186,7 @@ color:#2D716E;
 .dropDownMenu > li > ul > li > ul {
 	text-align: left;
 	display: none;
-	background: #F8A248; 
+	background: #e4781e; 
 	position: absolute;
 	left: 100%;
 	top: 0;
