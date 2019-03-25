@@ -90,10 +90,10 @@ opacity:0;
 	display: block;
 	text-decoration: none;
 }
- .dropDownMenu > li:nth-child(3)>a:hover { background: #CA7822; } /* Darker than #F8A248 first menu */
- .dropDownMenu > li:nth-child(4)>a:hover { background: #1E4D4A; } /* Darker than #2d716e first menu */
- .dropDownMenu > li:nth-child(5)>a:hover { background: #CA7822; } /* Darker than #F8A248 Third menu */
- .dropDownMenu > li:nth-child(6)>a:hover { background: #1E4D4A; } /* Darker than #2d716e first menu */
+ .dropDownMenu > li:nth-child(3)>a:hover { color:#2D716E; background: #CA7822; } /* Darker than #F8A248 first menu */
+ .dropDownMenu > li:nth-child(4)>a:hover { color:#F8A248; background: #1E4D4A; } /* Darker than #2d716e first menu */
+ .dropDownMenu > li:nth-child(5)>a:hover { color:#2D716E; background: #CA7822; } /* Darker than #F8A248 Third menu */
+ .dropDownMenu > li:nth-child(6)>a:hover { color:#F8A248; background: #1E4D4A; } /* Darker than #2d716e first menu */
 
 /*.dropDownMenu a:hover {
 	background: #cccccc;
@@ -110,21 +110,6 @@ opacity:0;
 	margin-left: 0;
 }
 .dropDownMenu > li > a {}
-/*.dropDownMenu > li > a:hover {
-color:#F8A248;
-}*/
-.dropDownMenu > li:nth-child(3) > a:hover {
-color:#2D716E;
-}
-.dropDownMenu > li:nth-child(4) > a:hover {
-color:#F8A248;
-}
-.dropDownMenu > li:nth-child(5) > a:hover {
-color:#2D716E;
-}
-.dropDownMenu > li:nth-child(6) > a:hover {
-color:#F8A248;
-}
 
 /* Level 2 */
 .dropDownMenu > li > ul {
