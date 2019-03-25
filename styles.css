@@ -131,6 +131,18 @@ opacity:0;
 
 .dropDownMenu > li:hover > ul {
 	display: block;
+	color:#F8A248;
+
+}
+
+.dropDownMenu > li:nth-child(3):hover > ul {
+	display: block;
+	color:#2D716E;
+
+}
+
+.dropDownMenu > li:nth-child(5):hover > ul {
+	display: block;
 	color:#2D716E;
 
 }
@@ -140,6 +152,17 @@ opacity:0;
 color:#2D716E;
 }
 
+/*.dropDownMenu ul li:nth-child(3) a:hover {
+color:#2D716E;
+}
+.dropDownMenu ul li:nth-child(4) a:hover {
+color:#F8A248;
+}
+.dropDownMenu ul li:nth-child(5) a:hover {
+color:#2D716E;}
+.dropDownMenu ul li:nth-child(6) a:hover {
+color:#F8A248;
+}
 /*.dropDownMenu ul li:nth-child(3) a:hover {
 color:#2D716E;
 }
