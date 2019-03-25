@@ -138,11 +138,11 @@ color:#2D716E;
 
 
 
-/*.dropDownMenu > li:hover > ul {
+.dropDownMenu > li:hover > ul {
 	display: block;
 	color:#F8A248;
 
-}*/
+}
 
 .dropDownMenu ul li a {}
 .dropDownMenu ul li a:hover {
