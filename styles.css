@@ -113,7 +113,12 @@ opacity:0;
 .dropDownMenu > li > a:hover {
 color:#F8A248;
 }
-
+.dropDownMenu > li:nth-child(3) > a:hover {
+color:#2D716E;
+}
+.dropDownMenu > li:nth-child(5) > a:hover {
+color:#2D716E;
+}
 
 /* Level 2 */
 .dropDownMenu > li > ul {
@@ -137,8 +142,7 @@ color:#F8A248;
 	display: block;
 	color:#F8A248;
 
-}
-   .dropDownMenu > li:nth-child(3)>ul { background: #F8A248; }*/
+}*/
 
 .dropDownMenu ul li a {}
 .dropDownMenu ul li a:hover {
