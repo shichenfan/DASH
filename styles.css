@@ -81,6 +81,8 @@ opacity:0;
 	list-style: none;
 	margin: 0;
 	padding: 0;
+	        text-align:center;
+
 }
 .dropDownMenu li {
 	position: relative;
