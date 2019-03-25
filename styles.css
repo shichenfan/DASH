@@ -96,9 +96,9 @@ opacity:0;
 	text-decoration: none;
 }
  .dropDownMenu > li:nth-child(3)>a:hover { background: #e4781e; } /* Darker than #F8A248 first menu  */
- .dropDownMenu > li:nth-child(4)>a:hover { background: #1a7874; } /* Darker than #2d716e second menu */
+ .dropDownMenu > li:nth-child(4)>a:hover { background: #1a7874; } /* Darker than #20aea6 second menu */
  .dropDownMenu > li:nth-child(5)>a:hover { background: #e4781e; } /* Darker than #F8A248 Third menu  */
- .dropDownMenu > li:nth-child(6)>a:hover { background: #1a7874; } /* Darker than #2d716e Fourth menu */
+ .dropDownMenu > li:nth-child(6)>a:hover { background: #1a7874; } /* Darker than #20aea6 Fourth menu */
 
 /* Level 1 Drop Down Menu */
 .dropDownMenu > li {
@@ -116,16 +116,16 @@ opacity:0;
 	text-align: left;
 	width: auto; /* change auto value with 200px if you want a bigger menu */
 	display: none;
-	background: #2D716E;/* Blue*/
+	background: #20aea6;/* Blue*/
 	position: absolute;
 	top: 100%;
 	left: 0;
 	z-index: 9999999; /* if you have YouTube iframes, is good to have a bigger z-index so the video can appear above the video */
 }
    .dropDownMenu > li:nth-child(3)>ul { background: #F8A248; }
-   .dropDownMenu > li:nth-child(4)>ul { background: #2D716E; }
+   .dropDownMenu > li:nth-child(4)>ul { background: #20aea6; }
    .dropDownMenu > li:nth-child(5)>ul { background: #F8A248; }
-   .dropDownMenu > li:nth-child(6)>ul { background: #2D716E; }
+   .dropDownMenu > li:nth-child(6)>ul { background: #20aea6; }
 
 
 
