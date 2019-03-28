@@ -8,41 +8,40 @@
 	margin: 0;
 	padding: 0;
 }
+
 body {
 	font-family: 'Roboto', sans-serif;
-	font-size: 15pt;
-	background-image: url("Capture.JPG");
+	font-size: 13pt;
+	/*background-image: url("Capture.JPG");*/
 	background-size: cover;
 }
-
+/* Capture.JPG*/
 /* Menu General Styles */
 .menuBackground {
 	/*background-image: url("innerHeaderBg4.jpg");*/
-	background: rgba(108, 122, 137, 0.7);
+	/*background: rgba(108, 122, 137, 0.7);*/
+	background-image: linear-gradient(to right,rgba(108, 122, 137, 0.3) , rgba(108, 122, 137, 0.8));
 	/*background-size: 1000px 700px;*/
 ¡¡¡¡/*background-size:contain;*/
 	height:10vh;
 }
-.menuBackground_c {
+/*.menuBackground_c {
 	background-image: url("DSC_0055-1.jpg");
 	background-size: contain;
-	
 }
 .menuBackground_e {
 	background-image: url("IMG_6858-1-2.jpg");
 	background-size: contain;
-	
 }
 .menuBackground_rtp {
 	background-image: url("IMG_6858-1-2.jpg");
 	background-size: cover;
-	
 }
 .menuBackground_tip{
 	background-image: url("IMG_6858-1-2.jpg");
 	background-size: contain;
 	
-}
+}*/
 
 .introduction {
 	background: white;
@@ -67,6 +66,8 @@ width: 500px;
 opacity:0;
 }
 .lv2title{
+margin-left: 9em;
+margin-bottom: 1em;
 
 }
 .equity{
@@ -173,3 +174,15 @@ opacity:0;
   color: #F8A248;
 }
 
+.regional{
+	margin-top: 0.3em;
+}
+.program{
+	margin-top: 0.3em;
+}
+.project{
+	margin-top: 0.3em;
+}
+.contact{
+	margin-top: 0.3em;
+}
