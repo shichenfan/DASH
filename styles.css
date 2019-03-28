@@ -77,15 +77,14 @@ opacity:0;
 	z-index: 1;
 }
 .dropDownMenu a {
-	color: #FFFFFF; /*#F8A248; orange*/
+	color: #FFFFFF; /*#F8A248; orange font color no hover */
 }
 .dropDownMenu,
 .dropDownMenu ul {
 	list-style: none;
 	margin: 0;
 	padding: 0;
-	        text-align:center;
-
+	text-align:center;
 }
 .dropDownMenu li {
 	position: relative;
@@ -95,10 +94,10 @@ opacity:0;
 	display: block;
 	text-decoration: none;
 }
- .dropDownMenu > li:nth-child(3)>a:hover { background: #e4781e; } /* Darker than #F8A248 first menu  */
- .dropDownMenu > li:nth-child(4)>a:hover { background: #1a7874; } /* Darker than #20aea6 second menu */
- .dropDownMenu > li:nth-child(5)>a:hover { background: #e4781e; } /* Darker than #F8A248 Third menu  */
- .dropDownMenu > li:nth-child(6)>a:hover { background: #1a7874; } /* Darker than #20aea6 Fourth menu */
+ .dropDownMenu > li:nth-child(3) > a:hover { background: #e4781e; } /* Darker than #F8A248 first menu   dark orange*/
+ .dropDownMenu > li:nth-child(4) > a:hover { background: #1a7874; } /* Darker than #20aea6 second menu  dark green*/
+ .dropDownMenu > li:nth-child(5) > a:hover { background: #e4781e; } /* Darker than #F8A248 Third menu   dark orange*/
+ .dropDownMenu > li:nth-child(6) > a:hover { background: #1a7874; } /* Darker than #20aea6 Fourth menu  dark green*/
 
 /* Level 1 Drop Down Menu */
 .dropDownMenu > li {
@@ -110,6 +109,7 @@ opacity:0;
 	margin-left: 0;
 }
 .dropDownMenu > li > a {}
+.dropDownMenu > li > a:hover {}
 
 /* Level 2 */
 .dropDownMenu > li > ul {
@@ -122,65 +122,35 @@ opacity:0;
 	left: 0;
 	z-index: 9999999; /* if you have YouTube iframes, is good to have a bigger z-index so the video can appear above the video */
 }
-   .dropDownMenu > li:nth-child(3)>ul { background: #F8A248; }
-   .dropDownMenu > li:nth-child(4)>ul { background: #20aea6; }
-   .dropDownMenu > li:nth-child(5)>ul { background: #F8A248; }
-   .dropDownMenu > li:nth-child(6)>ul { background: #20aea6; }
-
-
+   .dropDownMenu > li:nth-child(3)> ul { background: #F8A248; }
+   .dropDownMenu > li:nth-child(4)> ul { background: #20aea6; }
+   .dropDownMenu > li:nth-child(5)> ul { background: #F8A248; }
+   .dropDownMenu > li:nth-child(6)> ul { background: #20aea6; }
 
 .dropDownMenu > li:hover > ul {
 	display: block;
 	/* color:#F8A248; */ 
 }
-/*
-.dropDownMenu > li:nth-child(3):hover > ul {
-	display: block;
-	color:#2D716E;
 
-}
-.dropDownMenu > li:nth-child(5):hover > ul {
-	display: block;
-	color:#2D716E;
-
-}*/
-.dropDownMenu li:nth-child(3) a:hover {
+.dropDownMenu  li:nth-child(3) > ul  a:hover {
   color: #e4781e;
 }
-.dropDownMenu li:nth-child(4) a:hover {
+.dropDownMenu li:nth-child(4) > ul a:hover {
   color: #1a7874;
 }
-.dropDownMenu li:nth-child(5) a:hover {
+.dropDownMenu li:nth-child(5) > ul a:hover {
   color: #e4781e;
 }
-.dropDownMenu li:nth-child(6) a:hover {
+.dropDownMenu li:nth-child(6) > ul a:hover {
   color: #1a7874;
 }
-
-
 
 .dropDownMenu ul li a {}
 .dropDownMenu ul li a:hover {
 /*color:#2D716E; */
 }
 
-/*.dropDownMenu ul li:nth-child(3) a:hover {
-color:#2D716E;
-}
-.dropDownMenu ul li:nth-child(4) a:hover {
-color:#F8A248;
-}
-.dropDownMenu ul li:nth-child(5) a:hover {
-color:#2D716E;}
-.dropDownMenu ul li:nth-child(6) a:hover {
-color:#F8A248;
-}
-/*.dropDownMenu ul li:nth-child(3) a:hover {
-color:#2D716E;
-}
-.dropDownMenu ul li:nth-child(5) a:hover {
-color:#2D716E;
-}*/
+
 
 /* Level 3 */
 .dropDownMenu > li > ul > li > ul {
@@ -193,10 +163,13 @@ color:#2D716E;
 	z-index: 9999999;
 }
 .dropDownMenu > li > ul > li:hover > ul {
-	display: block;
+	display: block; 
+}
 }
 .dropDownMenu ul ul li {}
 .dropDownMenu ul ul li a {}
 .dropDownMenu ul ul li a:hover {}
-/*.dropDownMenu > li:nth-child(3)>ul>li>ul { background:  #2D716E;}
-.dropDownMenu > li:nth-child(5)>ul>li>ul { background:  #2D716E;}*/
+.dropDownMenu  li:nth-child(3) > ul >li >ul  a:hover {
+  color: #F8A248;
+}
+
